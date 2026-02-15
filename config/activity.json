@@ -1,0 +1,26 @@
+{
+  "activity_id": "horse_2026_geek_v1",
+  "title": "2026马年新年小游戏闯关活动",
+  "enabled": true,
+  "start_at": "2026-02-15T10:00:00+08:00",
+  "end_at": "2026-02-19T00:00:00+08:00",
+  "reward_start_at": "2026-02-15T10:00:00+08:00",
+  "reward_end_at": "2026-02-15T22:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "channel": {
+    "name": "telegram",
+    "bot_display_name": "NewYear2026ActivityBot"
+  },
+  "global_limits": {
+    "max_inflight_per_user": 1,
+    "queue_max_length": 20000,
+    "worker_concurrency": 8
+  },
+  "llm": {
+    "provider": "openai_compatible",
+    "model": "gpt-5.2",
+    "timeout_seconds": 30,
+    "default_max_output_tokens": 256
+  },
+  "judge_timeout_strategy": "fail_no_count"
+}

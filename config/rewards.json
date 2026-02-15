@@ -1,0 +1,98 @@
+{
+  "reward_pools": [
+    {
+      "pool_id": "pool_lv1",
+      "name": "Lv1 口令红包",
+      "enabled": true,
+      "send_message_template": "🎉 *第一关通关成功！*\n\n你的红包口令：`{reward_code}`\n\n💡 打开支付宝搜索「红包」，输入口令领取\n🧧 100份共计100元拼手气口令红包，先到先得\n祝你马年开源大吉！🐴",
+      "items": [
+        {
+          "item_id": "alipay_lv1_001",
+          "type": "ALIPAY_CODE",
+          "code": "【HIDDEN】",
+          "max_claims_per_item": 100
+        }
+      ]
+    },
+    {
+      "pool_id": "pool_lv2",
+      "name": "Lv2 口令红包",
+      "enabled": true,
+      "send_message_template": "🎉 *第二关通关成功！*\n\n你的红包口令：`{reward_code}`\n\n💡 打开支付宝搜索「红包」，输入口令领取\n🧧 50份共计100元拼手气口令红包，先到先得\n依赖锁定，版本无忧！🔒",
+      "items": [
+        {
+          "item_id": "alipay_lv2_001",
+          "type": "ALIPAY_CODE",
+          "code": "【HIDDEN】",
+          "max_claims_per_item": 50
+        }
+      ]
+    },
+    {
+      "pool_id": "pool_lv3",
+      "name": "Lv3 口令红包",
+      "enabled": true,
+      "send_message_template": "🎉 *第三关通关成功！*\n\n你的红包口令：`{reward_code}`\n\n💡 打开支付宝搜索「红包」，输入口令领取\n🧧 20份共计100元拼手气口令红包，先到先得\nCommit规范，代码整洁！📝",
+      "items": [
+        {
+          "item_id": "alipay_lv3_001",
+          "type": "ALIPAY_CODE",
+          "code": "【HIDDEN】",
+          "max_claims_per_item": 20
+        }
+      ]
+    },
+    {
+      "pool_id": "pool_lv4",
+      "name": "Lv4 口令红包",
+      "enabled": true,
+      "send_message_template": "🎉 *第四关通关成功！*\n\n你的红包口令：`{reward_code}`\n\n💡 打开支付宝搜索「红包」，输入口令领取\n⚠️ 口令仅限一人使用，请尽快领取\n🧧 支付宝口令红包20元\n架构清晰，六边形无敌！🏗️",
+      "items": [
+        {
+          "item_id": "alipay_lv4_001",
+          "type": "ALIPAY_CODE",
+          "code": "【HIDDEN】",
+          "max_claims_per_item": 1
+        },
+        {
+          "item_id": "alipay_lv4_002",
+          "type": "ALIPAY_CODE",
+          "code": "【HIDDEN】",
+          "max_claims_per_item": 1
+        },
+        {
+          "item_id": "alipay_lv4_003",
+          "type": "ALIPAY_CODE",
+          "code": "【HIDDEN】",
+          "max_claims_per_item": 1
+        },
+        {
+          "item_id": "alipay_lv4_004",
+          "type": "ALIPAY_CODE",
+          "code": "【HIDDEN】",
+          "max_claims_per_item": 1
+        },
+        {
+          "item_id": "alipay_lv4_005",
+          "type": "ALIPAY_CODE",
+          "code": "【HIDDEN】",
+          "max_claims_per_item": 1
+        }
+      ]
+    },
+    {
+      "pool_id": "pool_lv5",
+      "name": "Lv5 口令红包",
+      "enabled": true,
+      "send_message_template": "🏆 *恭喜！马年终极通关！*\n\n你的红包口令：`{reward_code}`\n\n💡 打开支付宝搜索「红包」，输入口令领取\n⚠️ 口令仅限一人使用，请尽快领取\n🧧 支付宝口令红包50元\n\n🐴 马年大吉，万事如意！",
+      "items": [
+        {
+          "item_id": "alipay_lv5_001",
+          "type": "ALIPAY_CODE",
+          "code": "【HIDDEN】",
+          "max_claims_per_item": 1
+        }
+      ]
+    }
+  ]
+}

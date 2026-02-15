@@ -1,0 +1,1 @@
+# JSON Content Provider adapter
